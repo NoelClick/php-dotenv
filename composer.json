@@ -1,0 +1,31 @@
+{
+    "name": "noelclick/php-dotenv",
+    "type": "library",
+    "description": "Lightweight parser for `.env` files for PHP.",
+    "keywords": [
+        "PHP",
+        "DotEnv parser",
+        "Environment variables",
+        "php-dotenv",
+        "NoelClick"
+    ],
+    "homepage": "https://github.com/NoelClick/php-dotenv",
+    "version": "v1.0.0",
+    "license": "GPL-2.0-only",
+    "authors": [
+        {
+            "name": "Noel Kayabasli",
+            "email": "dev@noel.click",
+            "role": "Developer",
+            "homepage": "https://www.noel.click/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "NoelClick\\PhpDotEnv\\": "App/"
+        }
+    },
+    "require": {
+        "php": "^8.0"
+    }
+}
